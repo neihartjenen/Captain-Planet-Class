@@ -20,7 +20,7 @@
 
     // Size Buttons
     $(".normal-button").on("click", function() {
-      captainPlanet.animate({ height: "300px" });
+      captainPlanet.animate({ height: "300px" , width:"300px" });
     });
     $(".grow-button").on("click", function() {
       captainPlanet.animate({ height: "500px" });
@@ -31,10 +31,10 @@
 
     // Visibility Buttons
     $(".str-button").on("click", function() {
-      captainPlanet.animate({ stretch: "1" });
+      captainPlanet.animate({ width: "1000px" });
     });
     $(".contract-button").on("click", function() {
-      captainPlanet.animate({ stretch: "0.05" });
+      captainPlanet.animate({ width: "300px" });
     });
 
     // Visibility Buttons
