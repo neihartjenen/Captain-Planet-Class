@@ -1,6 +1,7 @@
-<script>
+// deleted script tags, it was messing with the jQ
 
-  // JavaScript function that wraps everything
+   {/* JavaScript function that wraps everything  */}
+  
   $(document).ready(function() {
 
     var captainPlanet = $(".captain-planet");
@@ -91,4 +92,3 @@
     });
   });
 
-  </script>
