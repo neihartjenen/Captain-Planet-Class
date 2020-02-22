@@ -39,7 +39,7 @@
 
     // Visibility Buttons
     $(".vis-button").on("click", function() {
-      captainPlanet.animate({ effect: "scale", direction: "horizontal" });
+      captainPlanet.animate({ opacity: "1" });
     });
     $(".invis-button").on("click", function() {
       captainPlanet.animate({ opacity: "0.05" });
